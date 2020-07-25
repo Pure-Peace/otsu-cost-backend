@@ -9,21 +9,42 @@ Built: Python3 + flask + flask-SQLAlchemy
 
 Based on pp+ (https://syrin.me/)
 
+
+# Cost
+
+![png](https://github.com/Pure-Peace/otsu-cost-backend/blob/master/cost-fomula.png)
+
+by Prophet
+
+
+
 # Run
 
-1.Clone
+### 1.Clone
 
 ```bash
 git clone https://github.com/Pure-Peace/otsu-cost-backend
 ```
 
-2.Dependencies
+### 2.Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3.Run api
+### 3.Build dll
+
+windows
+```bash
+build_win.bat
+```
+
+linux
+```bash
+build_linux.sh
+```
+
+### 4.Run api
 
 
 gunicorn (daemon)
@@ -38,7 +59,7 @@ Run directly
 python main.py
 ```
 
-4.Spider
+### 5.Spider (selectable)
 
 ```bash
 python spider.py
