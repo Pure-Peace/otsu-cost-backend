@@ -50,7 +50,7 @@ build_linux.sh
 gunicorn (daemon)
 
 ```bash
-gunicorn -c config.py engine:app
+gunicorn -c config.py main:app
 ```
 
 Run directly
