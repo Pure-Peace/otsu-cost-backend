@@ -5,6 +5,8 @@ Website: https://cost.otsu.fun
 
 Api: https://cost.otsu.fun/api
 
+Frontend: https://github.com/Pure-Peace/otsu-cost
+
 Built: Python3 + flask + flask-SQLAlchemy
 
 Based on pp+ (https://syrin.me/)
