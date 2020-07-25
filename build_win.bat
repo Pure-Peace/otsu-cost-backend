@@ -1,0 +1,1 @@
+g++ -shared -o cost.dll cost_win.cpp
