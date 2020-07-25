@@ -2,8 +2,47 @@
 backend = api + spider + costCalculator
 
 Website: https://cost.otsu.fun
+
 Api: https://cost.otsu.fun/api
+
 Built: Python3 + flask + flask-SQLAlchemy
+
+Based on pp+ (https://syrin.me/)
+
+# Run
+
+1.Clone
+
+```bash
+git clone https://github.com/Pure-Peace/otsu-cost-backend
+```
+
+2.Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3.Run api
+
+
+gunicorn (daemon)
+
+```bash
+gunicorn -c config.py engine:app
+```
+
+Run directly
+
+```bash
+python main.py
+```
+
+4.Spider
+
+```bash
+python spider.py
+```
 
 
 # Simple Document:
